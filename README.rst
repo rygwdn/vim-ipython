@@ -9,7 +9,7 @@ following code to the 'main()' function in your iPython config::
         ipy_vimserver.setup(server)
     ip.expose_magic('vimserver', _start_vim_server_f)
 
-Then you can call %vimserver [servername], and the iPython will listen for
+Then you can call ``%vimserver [servername]``, and the iPython will listen for
 code from vim. In vim, you can use any of the commands defined at the end
 of the plugin.
 
